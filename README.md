@@ -12,7 +12,7 @@
 ![Mobile](https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/ztdrvzpbcjytdo892pxx.jpg)
 ---
 ### Links
-- #### Solution URL [Code on Github](https://github.com/Bowshik/Order-summary-componen)
+- #### Solution URL [Code on Github](https://github.com/Bowshik/Order-summary-component)
 - #### Live URL [Live website]()
 
 ### Author
