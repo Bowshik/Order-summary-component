@@ -13,7 +13,7 @@
 ---
 ### Links
 - #### Solution URL [Code on Github](https://github.com/Bowshik/Order-summary-component)
-- #### Live URL [Live website]()
+- #### Live URL [Live website](https://bowshik.github.io/Order-summary-component/)
 
 ### Author
 - #### Medium [Bowshik Sri Ram](https://medium.com/@bowshiksriram)
