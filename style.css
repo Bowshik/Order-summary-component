@@ -84,7 +84,6 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
-  background-image: url('images/pattern-background-desktop.svg');
   transform: translateX(-80%);
 }
 .annual-plan {
