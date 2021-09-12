@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  max-width: 120rem;
+  /* max-height: 80rem; */
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  background-size: contain;
+  background-position: top;
+  color: #72777c;
+}
+
+.main-container {
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  max-width: 45rem;
+  margin: 5rem auto;
+}
+.header-img {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.main-body {
+  padding: 1.6rem 4rem;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.4rem;
+}
+
+.order-summary {
+  margin-top: 2.4rem;
+}
+.order-summary,
+.order-description {
+  text-align: center;
+}
+
+.annual-plan,
+.order-summary {
+  color: rgb(0, 44, 88);
+}
+.order-summary {
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+.order-description {
+  font-size: 1.8rem;
+}
+
+.order-plan-box {
+  background-color: rgba(255, 255, 255, 0.979);
+  border-radius: 12px;
+  padding: 1.2rem 2.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.order-plan {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  background-image: url('images/pattern-background-desktop.svg');
+  transform: translateX(-80%);
+}
+.annual-plan {
+  font-weight: 700;
+}
+.btn-change:link,
+.btn-change:visited {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 900;
+  color: hsl(263, 75%, 49%);
+  text-decoration: inherit underline;
+
+  transition: all 0.3s;
+}
+
+.btn-change:hover,
+.btn-change:active {
+  color: rgba(103, 31, 219, 0.719);
+  text-decoration: none;
+}
+.order-payment {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.btn {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 10px;
+}
+.btn-cancel {
+  margin-bottom: 2rem;
+}
+.btn-cancel:link,
+.btn-cancel:visited {
+  color: #72777c;
+}
+.btn-cancel:hover,
+.btn-cancel:active {
+  color: rgba(56, 41, 224, 0.8);
+}
+.btn-payment:link,
+.btn-payment:visited {
+  background-color: rgba(56, 41, 224, 0.95);
+  color: #fff;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+
+  transition: all 0.3s;
+}
+.btn-payment:hover,
+.btn-payment:active {
+  background-color: rgba(56, 41, 224, 0.8);
+}
+
+@media (max-width: 29em) {
+  .header-img {
+    max-width: 100%;
+  }
+  .main-container {
+    max-width: 90%;
+    margin: 5rem auto;
+  }
+
+  .order-plan {
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 24em) {
+  .main-body {
+    padding: 1.2rem 2.4rem;
+  }
+
+  .order-plan-box {
+    padding: 0.8rem 1.2rem;
+  }
+  .btn-change:link,
+  .btn-change:visited {
+    font-size: 1.2rem;
+  }
+  .order-description {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 29em) {
+  .header-img {
+    max-width: 100%;
+  }
+  .main-container {
+    max-width: 90%;
+    margin: 5rem auto;
+  }
+
+  .order-plan {
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 24em) {
+  .main-body {
+    padding: 1.2rem 2.4rem;
+  }
+
+  .order-plan-box {
+    padding: 0.8rem 1.2rem;
+  }
+  .bg-img{
+    padding:840px;
+  }
+  .btn-change:link,
+  .btn-change:visited {
+    font-size: 1.2rem;
+  }
+  .order-description {
+    font-size: 1.6rem;
+  }
+}
