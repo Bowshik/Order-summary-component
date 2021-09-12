@@ -21,7 +21,6 @@ html {
 body {
   max-width: 120rem;
   /* max-height: 80rem; */
-  background-image: url("images/pattern-background-mobile.svg");
   margin: 0 auto;
   background-repeat: no-repeat;
   background-color: hsl(225, 100%, 94%);
